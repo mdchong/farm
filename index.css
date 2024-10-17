@@ -2,3 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
 
+/* Style Guide */
+:root {
+    /* Typography */
+    --header-font: "Irish Grover", cursive;
+    --body-font: "Habibi";
+
+    /* Size */
+    --header-1: 2.5em;
+    --header-2: 1.75em;
+    --header-3-body: 1.25em;
+
+    /* Colors */
+    --green: #06A816;
+    --Orange: #E75D02;
+    --Black: #000000;
+    --White: #FFFFFF;
+}
