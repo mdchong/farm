@@ -8,24 +8,34 @@
 
     <title>Fiona's Farm</title>
 
+    <!-- Google Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+    </style>
+
+    <!-- CSS Stylesheet -->
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Fiona's Farm</h1>
-        <p>Fresh from our farm to your family table</p>
+        <p class="description">Fresh from our farm to your family table</p>
     </header>
 
     <nav>
         <h2>Main Navigation</h2>
         <ul>
-            <li>Fruits</li>
-            <li>Vegetables</li>
+            <li><a href="#fruits">Fruits</a></li>
+            <li><a href="#vegetables">Vegetables</a></li>
         </ul>
     </nav>
 
     <main>
-        <section class="fruits">
+        <section class="fruits" id="fruits">
             <h2>Fruits</h2>
             <p>
                 Welcome to our farm, where we take pride in growing a variety of delicious and nutritious fruits. Our commitment to sustainable farming practices ensures that every bite of our fruit is bursting with natural flavor and goodness. From the orchard to your table, we offer a selection of fresh, hand-picked fruits that are perfect for snacking, baking, and cooking. Experience the taste of nature's bounty with our premium quality fruits.
@@ -33,9 +43,12 @@
 
             <h3>Fruits for Sale</h3>
 
+            <!-- Use div for figure (container),
+            Replace figcaption -> anchor
+            So the whole card can be clicked/hovered -->
             <figure>
                 <img src="./images/apples.png" alt="Red apple on a wooden table">
-                <figcaption class="apples">Apples</figcaption>
+                <figcaption>Apples</figcaption>
             </figure>   
 
             <figure>
@@ -89,14 +102,14 @@
             </figure>
         </section>
 
-        <section class="vegetables">
+        <section class="vegetables" id="vegetables">
             <h2>Vegetables</h2>
             <p>
                 At our farm, we are dedicated to growing a diverse array of vegetables that are both healthy and delicious. Our vegetables are cultivated using sustainable and eco-friendly methods to ensure the highest quality and flavor. Whether you are looking to create a fresh salad, cook a hearty meal, or simply enjoy a nutritious snack, our farm-fresh vegetables are the perfect choice. Taste the difference of locally grown produce with our vibrant and wholesome vegetables.
             </p>
 
+            <h3>Vegetables for Sale</h3>
             <figure>
-                <h3>Vegetables for Sale</h3>
                 <img src="./images/broccoli.png" alt="broccoli on a wooden table">
                 <figcaption>Broccoli</figcaption>
             </figure>
