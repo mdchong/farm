@@ -113,7 +113,7 @@ textarea:not([rows]) {
 
 body {
     font-family: var(--body-font);
-    font-size: 1.125rem;
+    font-size: var(--header-3);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -261,7 +261,7 @@ small {
 }
 
 /* Medium */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 834px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -297,7 +297,7 @@ small {
 }
 
 /* Large */
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 1280px) {
     .header {
         flex-direction: column;
         align-items: start;
@@ -323,7 +323,7 @@ small {
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
     .sale {
         grid-template-columns: repeat(4, 1fr);
     }
