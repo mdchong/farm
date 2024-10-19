@@ -1,8 +1,8 @@
-/* CSS by Michelle Chong} */
+/* ===== CSS by Michelle Chong} ===== */
 
-/* ============================ */
+/* ================================== */
 
-/* CSS Reset by Andy Bell */
+/* ===== CSS REST BY ANDY BELL ====== */
 /* https://piccalil.li/blog/a-more-modern-css-reset/ */
 
 /* Box sizing rules */
@@ -79,9 +79,7 @@ textarea:not([rows]) {
     scroll-margin-block: 5ex;
 }
 
-/* ============================ */
-
-/* Style Guide */
+/* ======== ROOT VARIABLES ========== */
 :root {
     /* Typography */
     --header-font: "Irish Grover", serif;
@@ -99,7 +97,7 @@ textarea:not([rows]) {
     --White: #FFFFFF;
 }
 
-/* ============================ */
+/* ================================== */
 
 /* * {
     outline: 1px solid red;
@@ -109,7 +107,7 @@ textarea:not([rows]) {
     outline: 1px solid yellow;
 } */
 
-/* CSS Start */
+/* ========= GLOBAL STYLES ========== */
 
 body {
     font-family: var(--body-font);
@@ -260,7 +258,7 @@ small {
     border-radius: 6px;
 }
 
-/* Medium */
+/* ====== MEDIA QUERY (MEDIUM) ====== */
 @media screen and (min-width: 834px) {
     .header {
         display: flex;
@@ -296,7 +294,7 @@ small {
     }
 }
 
-/* Large */
+/* ====== MEDIA QUERY (LARGE) ======= */
 @media screen and (min-width: 1280px) {
     .header {
         flex-direction: column;
@@ -322,6 +320,8 @@ small {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* ======== MEDIA QUERY (XL) ======== */
 
 @media screen and (min-width: 1440px) {
     .sale {
