@@ -323,7 +323,7 @@ small {
 
 /* ======== MEDIA QUERY (XL) ======== */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90em) {
     .sale {
         grid-template-columns: repeat(4, 1fr);
     }
