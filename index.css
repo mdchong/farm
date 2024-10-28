@@ -254,8 +254,8 @@ small {
 
 .scrolltop {
     position: fixed;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: 2rem;
+    right: 2rem;
     width: 4rem;
     height: 4rem;
     color: var(--White);
@@ -273,7 +273,7 @@ small {
 }
 
 /* ====== MEDIA QUERY (MEDIUM) ====== */
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 52.125em) {
     .header {
         display: flex;
         justify-content: space-between;
