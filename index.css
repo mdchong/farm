@@ -185,6 +185,12 @@ ul a {
     width: 16rem;
 }
 
+ul a:hover {
+    color: var(--Orange);
+    outline: 2px solid var(--Orange);
+    background-color: white;
+}
+
 main {
     padding: 0.5rem;
 }
@@ -256,6 +262,14 @@ small {
     background: var(--Orange);
     border: 1px solid var(--White);
     border-radius: 6px;
+    
+}
+
+.scrolltop:hover {
+    cursor: pointer;
+    color: var(--Orange);
+    outline: 2px solid var(--Orange);
+    background-color: white;
 }
 
 /* ====== MEDIA QUERY (MEDIUM) ====== */
