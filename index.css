@@ -262,7 +262,7 @@ small {
     background: var(--Orange);
     border: 1px solid var(--White);
     border-radius: 6px;
-    
+    text-align: center;
 }
 
 .scrolltop:hover {
